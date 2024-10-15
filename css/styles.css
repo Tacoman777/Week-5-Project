@@ -1,35 +1,46 @@
-
-
 body {
     background-color: black;
 }
 
-h1, p, div{
+h1 {
     color: white;
     text-align: center;
 }
-label {
-    color: white;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    display: flex;
-}
-button {
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-div {
-    justify-content: left;
-}
-.container {
-    display: flex;
-    justify-content: left;
-    width: 40%;
-    height: auto;
-    margin-left: 10%;
 
+div {
+    justify-content: center; 
 }
-input[type='checkbox']
-{
-   margin-right:20px;
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-style:double;
+    border-width: 10px;
+    border-color: white;
+}
+hr {
+    width: 70%;
+}
+
+
+#div-list {
+    text-align: left;
+    margin: auto;
+    width: 20%;
+    color: white;
+}
+
+.container {
+    color: white;
+    margin: auto;
+    text-align: center;
+}
+
+
+#tally {
+    text-align:center;
+    font-style: italic;
+    color: white;
 }
